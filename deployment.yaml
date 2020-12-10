@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
     - protocol: TCP
-      port: 9600
+      port: 31800
       targetPort: 9080
 ---
 apiVersion: apps/v1
