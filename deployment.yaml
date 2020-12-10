@@ -4,7 +4,7 @@ metadata:
   name: demo-service
 spec:
   selector:
-    app: greenhouse
+    app: demo
   type: NodePort
   ports:
     - protocol: TCP
